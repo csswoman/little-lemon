@@ -1,0 +1,165 @@
+body {
+    background-color: #EDEFEE;
+    font-family: 'Markazi Text', serif;
+    max-width: 1400px;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+h2 {
+    font-size: 2.3rem;
+}
+
+p {
+    font-weight: 400;
+    font-size: 1.3rem;
+    margin-bottom: 24px;
+}
+
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    background-color: #333333;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    font-size: 2rem;
+    text-align: center;
+    padding-inline-start: 0rem;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0.25rem;
+}
+
+nav ul a {
+    color: #EDEFEE;
+    text-decoration: none;
+}
+
+nav ul a:active {
+    text-decoration: underline;
+}
+
+nav ul a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 0.1rem;
+}
+
+section {
+    display: flex;
+    gap: 2rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+article {
+    flex: 1;
+    border-radius: 1rem;
+    padding-bottom: 1.5rem;
+}
+
+article img {
+    max-height: 250px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+article ul {
+    list-style: none;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+article a:link {
+    font-size: 1.3rem;
+}
+
+article a:hover {
+    color: #495E57;
+}
+
+article a:active {
+    color: #EDEFEE;
+    background-color: #495E57
+}
+
+main article {
+    background-color: #fbdabb79;
+    padding: 1rem 1rem 2rem;
+}
+
+main article h2 {
+    margin-bottom: 10px;
+}
+
+.why {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 24px;
+}
+
+.btn {
+    background-color: #495E57;
+    color: #fff;
+    padding: 5px 12px;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    color: #fff;
+    background-color: #212725;
+}
+
+#hero {
+    background-image: url("../assets/Asset 21.png");
+    background-size: cover;
+    background-position: center;
+    color: #495E57;
+    text-shadow: 2px 2px 8px #FFF9B0;
+    text-align: right;
+}
+
+#hero h1 {
+    margin-right: 2rem;
+    font-weight: 600;
+    font-size: 60px;
+}
+
+#hero p {
+    max-width: 100%;
+    margin-left: 16rem;
+    margin-right: 2rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    gap: 20px;
+}
+
+footer img {
+    max-width: 60px;
+}
